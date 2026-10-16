@@ -1,7 +1,6 @@
 class Rai < Formula
-  desc "rai — an extensible personal CLI."
+  desc "Extensible personal CLI"
   homepage "https://github.com/masseater/rai"
-  version "0.1.34"
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/masseater/rai/releases/download/v0.1.34/rai-aarch64-apple-darwin.tar.xz"
@@ -61,5 +60,9 @@ class Rai < Formula
     # Install any leftover files in pkgshare; these are probably config or
     # sample files.
     pkgshare.install(*leftover_contents) unless leftover_contents.empty?
+  end
+
+  test do
+    system bin/"rai", "--version"
   end
 end

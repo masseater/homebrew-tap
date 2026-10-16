@@ -29,7 +29,7 @@ class Msa < Formula
   end
 
   def install
-    libexec.install Dir["msa/*"]
+    libexec.install Dir["*"] - ["README.md", "CHANGELOG.md"]
     bin.install_symlink libexec/"msa"
   end
 

@@ -7,7 +7,7 @@ cask "no-mac-music" do
   desc "Stop Music.app from launching on media keys and route them to your player"
   homepage "https://github.com/masseater/no-mac-music"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "NoMacMusic.app"
 
