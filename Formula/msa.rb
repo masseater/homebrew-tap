@@ -2,7 +2,6 @@
 class Msa < Formula
   desc "Coding agent CLI with read, bash, edit, write tools and session management"
   homepage "https://github.com/masseater/msa"
-  version "0.0.1"
   license "MIT"
 
   on_macos do
