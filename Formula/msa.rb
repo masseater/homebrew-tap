@@ -6,25 +6,25 @@ class Msa < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/masseater/msa/releases/download/v0.0.5/msa-darwin-arm64.tar.gz"
-      sha256 "2725ba206c63f57e6a6ff43337c2459974350d08c3669fb1dfb132293971d814"
+      url "https://github.com/masseater/msa/releases/download/v0.0.6/msa-darwin-arm64.tar.gz"
+      sha256 "97ce3f2a9ca9ff295cc541d6e9193c8403e575c1c94fef9d77a6a20e386538c6"
     end
 
     on_intel do
-      url "https://github.com/masseater/msa/releases/download/v0.0.5/msa-darwin-x64.tar.gz"
-      sha256 "f1bc22c31e66dcd6d075f16fe967beaff2e0ff555e2d685f6539ab6726b8e4ee"
+      url "https://github.com/masseater/msa/releases/download/v0.0.6/msa-darwin-x64.tar.gz"
+      sha256 "5ff377c80b911499f91692e798cfcad9cb17e1f9b1fdbf69c01b62aeb565380a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/masseater/msa/releases/download/v0.0.5/msa-linux-arm64.tar.gz"
-      sha256 "db63901e6df2dd85f741944c09746f7f3cbee2838ad64c8b5af74ff5fb74d1ae"
+      url "https://github.com/masseater/msa/releases/download/v0.0.6/msa-linux-arm64.tar.gz"
+      sha256 "04ec546d9b9d662c21da7306380837acbce7c9cd7ffc8cd057132327aca68b81"
     end
 
     on_intel do
-      url "https://github.com/masseater/msa/releases/download/v0.0.5/msa-linux-x64.tar.gz"
-      sha256 "79d7b55b8b2ffffbd82fee761b594913ea64fe737c4a014be299ee60a7b62e70"
+      url "https://github.com/masseater/msa/releases/download/v0.0.6/msa-linux-x64.tar.gz"
+      sha256 "6dbbf429499edb4ebb42cf0912e997a9546940384b65a273d518d4a7c9734390"
     end
   end
 
